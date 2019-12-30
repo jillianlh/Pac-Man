@@ -1,0 +1,116 @@
+body{
+   background-color: #010021;
+   margin: 0px;
+   vertical-align: bottom;
+}
+
+div.row div{
+   width: 20px;
+   height: 20px;
+   display: inline-block;
+   vertical-align: bottom;
+}
+
+div.brick{
+   background-color: #00016a;
+   border-radius: 4px;
+   border: 1.5px solid #135fd1;
+   outline: 1px solid #010021;
+   vertical-align: bottom;
+   box-sizing: border-box;
+}
+
+div.coin{
+   background: url("img/coin.gif");
+   background-repeat: no-repeat;
+   background-position: center;
+   background-size: cover;
+   vertical-align: bottom;
+}
+
+div.cherry{
+   background: url("img/cherry.png");
+   background-repeat: no-repeat;
+   background-position: center;
+   background-size: cover;
+   vertical-align: bottom;
+}
+
+div.cookie{
+   background: url("img/cookie.png");
+   background-repeat: no-repeat;
+   background-position: center;
+   background-size: cover;
+   vertical-align: bottom;
+}
+
+div.empty{
+   vertical-align: bottom;
+}
+
+div#pacman{
+   background-image: url("img/pacmanright1.png");
+   background-repeat: no-repeat;
+   background-position: center;
+   background-size: cover;
+   width: 20px;
+   height: 20px;
+   position: absolute;
+   vertical-align: bottom;
+}
+
+div#inky{
+   background-image: url("img/inky.gif");
+}
+
+div#clyde{
+   background-image: url("img/clyde.gif");
+}
+
+div#pinky{
+   background-image: url("img/pinky.gif");
+}
+
+div#blinky{
+   background-image: url("img/blinky.gif");
+}
+
+div#inky, div#clyde, div#pinky, div#blinky{
+   background-repeat: no-repeat;
+   background-position: center;
+   background-size: cover;
+   width: 20px;
+   height: 20px;
+   position: absolute;
+   vertical-align: bottom;
+}
+
+div#score{
+   border: 3px solid #fff;
+   width: 150px;
+   height: 20px;
+   color: #ff0;
+   padding: 7px;
+   text-align: center;
+   top: 10px;
+   left: 0px;
+   font-family: 'Turret Road', cursive;
+   margin-top: 10px;
+   display: inline-block;
+   vertical-align: top;
+}
+
+div#title{
+   width: 120px;
+   height: 34px;
+   color: #ff0;
+   padding: auto;
+   text-align: center;
+   top: 10px;
+   left: 0px;
+   font-family: 'Righteous', cursive;
+   font-size: 1.5rem;
+   margin-top: 13px;
+   display: inline-block;
+   vertical-align: top;
+}
